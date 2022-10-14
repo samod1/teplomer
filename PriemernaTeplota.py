@@ -44,7 +44,7 @@ while True:
                #write avg value to the file
                avgtemps.write("28-00000883f6c2 " + str(avgtemperatures1))
             avgtemps.write("\n")
-	    if sens == '28-00000884cf74':
+            if sens == '28-00000884cf74':
                 #priradime teplotu k senzoru 2
                 temperatures2[i]=temperature/1000
                 #vypocitame priemernu

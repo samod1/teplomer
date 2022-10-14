@@ -35,7 +35,7 @@ while True:
             # Split the line into words, referring to the spaces, and select the 10th word (counting from 0).
             temperaturedata = secondline.split(" ")[9]
             # The first two characters are "t=", so get rid of those and convert the temperature from a string to a number.
-            temperature = float(temperaturedata[2:] 
+            temperature = float(temperaturedata[2:]) 
             if sens == '28-00000883f6c2':
                ##priradime teploty k senzoru 1
                temperatures1[i]=temperature/1000

@@ -15,8 +15,8 @@ while True:
         lines.append(str(now))
         for sens in sensorids:
                 temperatures = []
-		text = '';
-		while text.split("\n")[0].find("YES") == -1 :
+                text = '';
+                while text.split("\n")[0].find("YES") == -1 :
 			# Open the file that we viewed earlier so that python can see what is in it. Replace the serial number as before.
 			tfilename = "/sys/bus/w1/devices/" + sens +"/w1_slave"
 			tfile = open(tfilename)

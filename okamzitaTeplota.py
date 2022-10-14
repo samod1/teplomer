@@ -12,7 +12,7 @@ while True:
 
         temps.seek(0)
         lines=[]
-        lines.append(str(now)
+        lines.append(str(now))
         for sens in sensorids:
 		temperatures = []
 		text = '';

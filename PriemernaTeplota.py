@@ -49,7 +49,7 @@ while True:
                 temperatures2[i]=temperature/1000
                 #vypocitame priemernu
                 avgtemperatures2= sum(temperatures2)/float(len(temperatures2))
-                ##urobime vypis
+                #urobime vypis
                 avgtemps.write("28-00000884cf74 " + str(avgtemperatures2))
     if i>4:
      i=0
